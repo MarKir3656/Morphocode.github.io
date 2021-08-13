@@ -1,0 +1,8 @@
+@font-face { 
+    font-family: 'Sailec Bold'; 
+    src: url('Sailec Bold.woff2') format('woff2'), 
+         url('Sailec Bold.ttf')  format('truetype'), 
+         url('Sailec Bold.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+  }
