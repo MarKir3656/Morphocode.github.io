@@ -118,6 +118,7 @@ button{
     box-sizing: border-box;
     border-radius: 0px 4px 4px 0px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 footer{
@@ -173,6 +174,7 @@ letter-spacing: 0.25px;
     color: #1D6FF3;
     padding-top: 30px;
     border-bottom: 1px solid rgba (0,0,0,0);
+    cursor: pointer;
 }
 
 .text_bg{
@@ -197,6 +199,7 @@ letter-spacing: 0.25px;
 a{
     text-decoration: none;
     color: rgba(102, 102, 102, 0.85);
+    cursor: pointer;
 }
 
 .blue:hover{
@@ -210,3 +213,4 @@ a{
 button:hover{
     transform: scale(1.1, 1.1);
   }
+  
