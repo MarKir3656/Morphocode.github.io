@@ -80,11 +80,13 @@ p,button, input{
     flex-direction: column;
     align-items: center;
 }
-
+/*
 .left_aligit{
-    width: 1080px;
+    width: 100%;
     display: flex;
-}
+    align-items: left;
+    padding-right: 83.71%;
+}*/
 
 .subscribe{
     display: flex;
@@ -165,12 +167,12 @@ font-weight: normal;
 font-size: 16px;
 line-height: 16px;
 letter-spacing: 0.25px;
-color: rgba(102, 102, 102, 0.85);
 }
 
 .blue{
     color: #1D6FF3;
     padding-top: 30px;
+    border-bottom: 1px solid rgba (0,0,0,0);
 }
 
 .text_bg{
@@ -191,3 +193,20 @@ color: rgba(102, 102, 102, 0.85);
     z-index: -1;
     top: -136px;
 }
+
+a{
+    text-decoration: none;
+    color: rgba(102, 102, 102, 0.85);
+}
+
+.blue:hover{
+    border-bottom: 1px solid #1D6FF3;
+}
+
+.menu:hover{
+  transform: scale(1.2, 1.2);
+}
+
+button:hover{
+    transform: scale(1.1, 1.1);
+  }
